@@ -41,9 +41,11 @@ int k = 0;
 Общий цикл   while i < y1 (
 Первый цикл: while (h < y2) (
 			 while j < x (arrayResult[i][h] += one[i][j] * two[j][h]; j++)
-							h++;
+							h++; 
+							j = 0;
 			 while j >= 0 (arrayResult[i][h] += one[i][j] * two[j][h]; j--)
 							h++;
+							j = 0;
 			)
 			
 			i++;
