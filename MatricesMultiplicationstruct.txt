@@ -71,15 +71,17 @@
 			r += arrOne[i][j] * arrTwo[j][h];
 			j++;
 			}
-		array[i][h] = r;	
+		arrRes[i][h] = r;
+		r = 0;
 		j = 0;
 		h++;
 		}
 	h = 0;
 	j = 0;
+	r = 0;
 	i++;		
 	}
-	
+	return arrRes;
 	}
 		
 	}
